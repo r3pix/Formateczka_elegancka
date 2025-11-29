@@ -1,7 +1,0 @@
-<Solution>
-  <Project Path="PhotoApp.Api/App.Api.csproj" />
-  <Project Path="PhotoApp.Application/App.Application.csproj" />
-  <Project Path="PhotoApp.Domain/App.Domain.csproj" />
-  <Project Path="PhotoApp.Infrastructure/App.Infrastructure.csproj" />
-  <Project Path="PhotoApp.Tests/App.Tests.csproj" Id="81431a72-260d-47e0-9f0d-b4b5b02dca95" />
-</Solution>
