@@ -8,10 +8,10 @@ WORKDIR /src
 
 COPY . .
 
-RUN dotnet restore "PhotoApp.Api/PhotoApp.Api.csproj"
-RUN dotnet publish "PhotoApp.Api/PhotoApp.Api.csproj" -c Release -o /app/publish
+RUN dotnet restore "App.Api/App.Api.csproj"
+RUN dotnet publish "App.Api/App.Api.csproj" -c Release -o /app/publish
 
 FROM base AS final
 WORKDIR /app
 COPY --from=build /app/publish .
-ENTRYPOINT ["dotnet", "PhotoApp.Api.dll"]
+ENTRYPOINT ["dotnet", "App.Api.dll"]
