@@ -19,9 +19,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\PhotoApp.Application\App.Application.csproj" />
-    <ProjectReference Include="..\PhotoApp.Domain\App.Domain.csproj" />
-    <ProjectReference Include="..\PhotoApp.Infrastructure\App.Infrastructure.csproj" />
+    <ProjectReference Include="..\App.Application\App.Application.csproj" />
+    <ProjectReference Include="..\App.Domain\App.Domain.csproj" />
+    <ProjectReference Include="..\App.Infrastructure\App.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>
